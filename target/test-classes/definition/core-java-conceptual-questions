@@ -1,0 +1,125 @@
+Please answer the below core-java Questions:
+
+What is programing language?
+A. A programming language is a language used in order to communicate with the machine.
+
+
+
+
+What jdk contains or composed of and define each components?
+A.  The Java Development Kit (JDK) is a software development kit that contains the tools and libraries needed to develop Java applications. It includes the following components:
+1-The Java Runtime Environment (JRE): This is the core Java runtime environment that is required to run Java applications. It includes the Java Virtual Machine (JVM), the Java class libraries.
+2-The Java compiler: This is a tool that converts Java source code into Java bytecode.
+3-The Java debugger: This is a tool that helps developers find and fix errors and bugs in their Java code.
+4-The Java documentation generator: This is a tool that generates documentation for Java code based on comments and annotations in the source code.
+5-The Java archiver (jar): This is a tool that allows developers to package Java classes and resources into a single archive file (jar).
+6-The Java disassembler (javap): This is a tool that converts Java bytecode into a human-readable form.
+7-The Java packaging tool (java packager): This is a tool that helps developers package Java applications for deployment.
+8-The Java launcher (java): This is a command-line tool that allows developers to run Java applications.
+
+
+
+
+What is IDE?
+A. IDE is an integrated software application that allows java users to efficiently develop application codes.
+
+
+
+What are the IDEs available in the market to support java?
+A.The most used IDEs in the market right now are Eclipse, IntelliJ and netbeans.
+
+
+
+Explain the entire java life cycle.
+A. Java life cycle is the process of developing, testing, and releasing java applications. the first step of this life cycle is devloping,
+where developers write java codes using different IDEs, after writing the codes,these codes needs to be compiled
+into the machine code which will be executed by the JVM. Now after the developers are done with the application and before
+deploying it, it has to be tested to ensure that all the functionalities are working fine and there are no errors or bugs so can
+the application  be deployed to users. And lastly it is important to continue to maintain and update it.
+
+what is class?
+A.Class is a blueprint, any code thats written should be under a class otherwise its not gonna be executed.
+
+What is object?
+A.An object is an instance of class.we use it in order to call a method and to access the variables.
+
+What is the entry point of an application?
+A. the entry point of an application is the main method.
+
+Why main is static?
+A.
+
+Which class is the superclass of all classes?
+A. the superclass of all classes is the Object.
+
+What is difference between path and classpath variables?
+A.The PATH variable is used to specify the directories where executables can be found, while classpath
+variable is used to specify the locations of class files.
+
+What is the difference between an Interface and Abstract class?
+A. Interfaces are used to specify a set of behaviors that a class must implement,
+while abstract classes are used to provide a common base class for a hierarchy of classes.
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A.
+what is Access Specifier?
+A. In Java, an access specifier is a keyword that determines the visibility and accessibility
+of a class, and attributes.
+
+What is OOP ? Define each feature of java OOP.
+A.
+What is Java Package and which package is imported by default?
+What is API? Name list of API that you have used so far.
+Does java support multiple inheritance, explain why or why not?
+What is method overloading and when it happens?
+Explain exceptions in java and how to handle it.
+What is static keyword in java? How it has been used in variables and methods ?
+What is final and how it has been used variables and methods?
+What is final, finally and finalize?
+What is a constructor ?
+Can we have multiple constructors in a class?
+If we don't have a constructor declared, what is called during the object creation?
+What is "this" keyword in java ?
+What is "super" keyword in java? How many possible way can you use?
+What is JVM stand for ?
+Is JVM platform independent?
+What version of java are you using?
+What is JAR stand for ?
+What is the difference between JDK and JVM?
+What is the difference between JVM and JRE?
+What is compile time and run time?
+What is heap?
+How java manage it's memory?
+What is the difference between String, StringBuffer and StringBuilder?
+What is Singleton class?
+What is Serialization and Deserialization?
+when to use transient variable in java?
+Difference between while and do..while loop?
+What is Enum?
+What is Iterator?
+Which one will take more memory, an int or Integer?
+Why is String Immutable in Java?
+What is constructor chaining in Java?
+The difference between Serial and Parallel Garbage Collector?
+What is JIT stands for?
+Explain Java Heap space and Garbage collection?
+Can you guarantee the garbage collection process?
+What is the difference between stack and heap in Java?
+What is reflection in java and why is it useful?
+what is multithreading in java?
+What is the use of synchronization in Java?
+What is Framework?
+What are the testing Framework available in java?
+Difference between jUnit and testNG?
+What are the dependencies for this project?
+what is dependency injection in java?
+What is static binding and dynamic binding?
+
+
+
+
+
+
+
+
+

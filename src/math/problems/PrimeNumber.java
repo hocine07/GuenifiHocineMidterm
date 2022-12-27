@@ -1,5 +1,7 @@
 package math.problems;
 
+import java.util.Arrays;
+
 public class PrimeNumber {
 
 	public static void main(String[] args) {
@@ -14,5 +16,8 @@ public class PrimeNumber {
 		 */
 
 	}
-
 }
+
+
+
+
