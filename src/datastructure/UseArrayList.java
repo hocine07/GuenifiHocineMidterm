@@ -1,5 +1,5 @@
 package datastructure;
-
+import java.util.ArrayList;
 public class UseArrayList {
 
 	public static void main(String[] args) {
@@ -10,8 +10,34 @@ public class UseArrayList {
 		 * 
 		 */
 
+		ArrayList<String> colors = new ArrayList<>();
+
+
+		colors.add("White");
+		colors.add("Yellow");
+		colors.add("Green");
+
+
+		System.out.println("First element: " + colors.get(0));
+
+
+		colors.remove(1);
+
+
+		System.out.println("Elements in the ArrayList:");
+		for (String color : colors) {
+			System.out.println(color);
+		}
+
+
+		System.out.println("Elements in the ArrayList (iterator):");
+		for (int i = 0; i < colors.size(); i++) {
+			System.out.println(colors.get(i));
+		}
+	}
+}
 	
 
-	}
 
-}
+
+

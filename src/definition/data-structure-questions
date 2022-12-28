@@ -103,7 +103,7 @@ A.Bubble sort: O(n^2)
   Merge sort: O(n*log(n))
   Quick sort: O(n*log(n))
   Heap sort: O(n*log(n))
-  Radix sort: O(n*k)
+  Radix sort: O(n*k)o
 
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
