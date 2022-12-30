@@ -13,9 +13,9 @@ public class UseArrayList {
 		ArrayList<String> colors = new ArrayList<>();
 
 
-		colors.add("White");
-		colors.add("Yellow");
-		colors.add("Green");
+		colors.add("black");
+		colors.add("green");
+		colors.add("purple");
 
 
 		System.out.println("First element: " + colors.get(0));

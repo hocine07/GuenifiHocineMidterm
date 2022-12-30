@@ -6,12 +6,16 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Stack;
 
+
+
+
+
 public class DataReader {
 
 	public static void main(String[] args) {
 		/*
 		 * User API to read the below textFile and print to console.
-		 * Use BufferedReader class. 
+		 * Use BufferedReader class.
 		 * Use try....catch block to handle Exception.
 		 *
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
@@ -23,8 +27,7 @@ public class DataReader {
 		 * Demonstrate how to use Stack that includes push,peek,search,pop elements.
 		 * Use For Each loop/while loop/Iterator to retrieve data.
 		 */
-
-		String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car.txt";
+		String textFile = "C:\\Users\\lhouc\\eclipse-workspace\\midterm-coding-exam\\src\\data\\self-driving-car";
 		Stack<String> stack = new Stack<>();
 		LinkedList<String> linkedList = new LinkedList<>();
 		try (BufferedReader reader = new BufferedReader(new FileReader(textFile))) {
@@ -40,21 +43,21 @@ public class DataReader {
 			System.out.println("Error reading file: " + e.getMessage());
 		}
 
-
+		// Print data from linked list in FIFO order
 		System.out.println("Retrieving data from linked list in FIFO order:");
 		while (!linkedList.isEmpty()) {
 			System.out.println(linkedList.poll());
 		}
 
-
+		// Print data from stack in FILO order
 		System.out.println("Retrieving data from stack in FILO order:");
 		while (!stack.isEmpty()) {
 			System.out.println(stack.pop());
 		}
+
+
+
 	}
-
-
-
 	}
 
 

@@ -13,18 +13,17 @@ public class UseQueue {
 		Queue<String> queue = new LinkedList<>();
 
 		// Add elements to the queue
-		queue.add("Apple");
-		queue.add("Banana");
-		queue.add("Orange");
+		queue.add("cristiano");
+		queue.add("messi");
+		queue.add("pele");
 
 
-		System.out.println("Peek at the head of the queue: " + queue.peek()); // Output: "Peek at the head of the queue: Apple"
+		System.out.println("Peek at the head of the queue: " + queue.peek());
+
+		System.out.println("Removed element: " + queue.remove());
 
 
-		System.out.println("Removed element: " + queue.remove()); // Output: "Removed element: Apple"
-
-
-		System.out.println("Polled element: " + queue.poll()); // Output: "Polled element: Banana"
+		System.out.println("Polled element: " + queue.poll());
 
 
 		System.out.println("Retrieving elements using for each loop:");
