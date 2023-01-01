@@ -1,7 +1,5 @@
 package math.problems;
 
-import java.util.Arrays;
-
 public class FindMissingNumber {
 
     public static void main(String[] args) {
@@ -37,4 +35,6 @@ public class FindMissingNumber {
 
         }
 
-    }
+
+
+}

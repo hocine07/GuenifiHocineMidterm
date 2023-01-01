@@ -20,5 +20,8 @@ public class Palindrome {
            System.out.println("S2 is not a palindrome");
        }
     }
+
+
     }
+
 

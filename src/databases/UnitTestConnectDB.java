@@ -1,14 +1,19 @@
 package databases;
 
-import org.junit.Assert;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class UnitTestConnectDB {
-    public static void main(String[] args) {
+    @Test
+    public void testConnectToSqlDB() {
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
-        ConnectToMongoDB connectToMongoDB = new ConnectToMongoDB();
-
-        Assert.assertEquals("", "");
 
 
+        boolean success = connectToSqlDB.connect();
+        assertEquals(true, success);
+
+
+        success = connectToSqlDB.connect();
+        assertTrue(success);
     }
 }
